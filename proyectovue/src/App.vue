@@ -1,17 +1,26 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+ <div class="hello">
+   
+   <h1>{{ msg }}</h1>
+   <br>
+   <button class="btn btn-primary">
+     Hola Bootstrap
+   </button>
+   <br>
+   <div class="alert alert-warning" role="alert">
+     Ya puedes agregar componentes 
+     Bootstrap a Vue/Cli!
+   </div>
+ </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Nabvar from './components/Navbar.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Nabvar
   }
 }
 </script>
